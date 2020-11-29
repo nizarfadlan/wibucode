@@ -438,15 +438,6 @@
       },
    });
 
-   $('nav-link').on('click', function(e){
-      var link = $(this).attr('href');
-      var scrollTujuan = $(link);
-
-      console.log($('body').scrollTop());
-
-      e.preventDefault();
-   });
-
    $('.navbar-toggler').on('click', function () {
       $('.animated-icon').toggleClass('open');
    });
